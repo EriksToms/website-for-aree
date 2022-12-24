@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/formatesana.css">
+</head>
+
+<div class="menu">
+  <a class="sakums" >Tabulas</a>
+  <a href="menu.html">skola</a>
+  <a href="password.html">Paroles pārbaude</a>
+  <a href="tabulas.html">Tabulas</a>
+  
+</div>
+
+<body onload="createTable()">
+    
+  <p>
+    <input 
+      type="button" 
+      id="addRow" 
+      value="Add New Row" 
+      onclick="addRow()" />
+  </p>
+
+  <!--THE CONTAINER WHERE WE'll ADD THE DYNAMIC TABLE-->
+  <div id="cont"></div>
+  
+    <p>
+      <input 
+        type="button" 
+        id="bt" 
+        value="Sumbit Data" 
+        onclick="sumbit()" />
+        <script src="js/darbibas.js"></script>
+    </p>
+</body>
+</html>
+
+
